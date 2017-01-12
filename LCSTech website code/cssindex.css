@@ -1,0 +1,84 @@
+IMG.centre
+{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+IMG.centre2
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:5%;
+}
+
+
+body {
+    font-family: helvetica, arial, verdana, sans-serif;
+    background-image: url("background3.png");
+    background-size:2000px 1000px;
+    background-repeat: repeat-x;
+    background-color:#dfdfdf;
+    background-attachment: fixed;
+}
+
+h2
+{
+	text-align:center;
+	color:#123456;
+	margin-bottom: 5%;
+}
+h1
+{
+	text-align:center;
+	color:#123456;
+	margin-top: 8%;
+}
+h3
+{
+	text-align:center;
+	color:#123456;
+	margin-top: 3%;
+}
+p.centretext
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70em;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#123456; 
+}
+
+
+ul
+{
+	list-style-type: none;
+	text-align:center;
+	margin: auto;
+	padding: 0;
+	top: 50%;
+	width: 98%;
+    overflow: hidden;
+}
+
+li
+{
+	border-right: 2px solid #bbb;
+	display: inline;
+}
+
+li a
+{
+	display: inline-block;
+    color: #123456;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+	background-color:white;
+	
+}
+
