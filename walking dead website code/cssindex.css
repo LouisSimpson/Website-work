@@ -1,0 +1,126 @@
+body {
+    font-family: helvetica, arial, verdana, sans-serif;
+    background-image: url(background.jpg);
+}
+
+@font-face {
+	font-family: thewalkingdead;
+	src: url(DeadKansas.ttf);
+}
+
+
+h2
+{
+	text-align:center;
+	color: #264d00;
+}
+header
+{
+	text-align:center;
+	font-family: thewalkingdead;
+	margin-top: 8%;
+	font-size:60px;
+	color: #BD1405;
+}
+
+article
+{
+ width: 100%;
+}
+
+h1
+{
+	text-align:center;
+	margin-top: 8%;
+}
+
+ul
+{
+	list-style-type: none;
+	text-align:center;
+	margin: auto;
+	padding: 0;
+	top: 40%;
+	width: 98%;
+    overflow: hidden;
+}
+
+nav li
+{
+	border-right: 1px solid #bbb;
+	display: inline;
+}
+
+li a
+{
+	display: inline-block;
+    color: navajowhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+li a:hover
+{
+	color:#111;
+}
+
+div.maincontent
+{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+
+div.buttonholder
+{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+IMG.inspiration
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+   
+
+}
+
+
+IMG.comicpage
+{
+    width: 75%;
+    height: 1500px;
+}
+
+
+
+footer
+{
+	
+	width: 75%;
+	height: 100px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:5%;
+}
+
+.active
+{
+    background: #a2532e;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+}
+

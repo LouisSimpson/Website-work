@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>The Walking Dead Web Comic</title>
+		<meta name="author" content="louis simpson" />
+		<link rel="stylesheet" type="text/css" id="stylesheet1" href="cssindex.css">
+	</head>
+	<body>
+	<button onclick="switch_style()">Switch CSS</button>
+			<button onclick="switch_back()">Switch back</button>
+			<script >function switch_style() 
+				{
+					document.getElementById('stylesheet1').href='cssindex2.css';
+				}
+			</script>
+
+			<script >function switch_back() 
+				{
+					document.getElementById('stylesheet1').href='cssindex.css';
+				}
+			</script>
+<header>
+	<h1>The Walking Dead Web Comic</h1>
+</header>
+
+<nav>
+	<ul>
+   		<li><a href="index.html">Front Cover</a></li>
+		<li><a href="page1.html">Page 1</a></li>
+		<li class=active><a href="page2.html">Page 2</a></li>
+		<li><a href="page3.html">Page 3</a></li>
+		<li><a href="page4.html">Page 4</a></li>
+		<li><a href="documentation.html">Documentation</a></li>
+		<li><a href="inspiration.html">Inspiration</a></li>
+		<li><a href="sitemap.html">Site Map</a></li>
+	</ul>
+</nav>
+
+<article>
+<div class=main>
+    <h2>Page 2 of the web comic</h2>
+<h2>Rick wakes up six months later to find himself alone in a hospital bed.<br>
+No one is around and he isn't sure what's going on...
+</h2>
+</div>
+<div class=maincontent>	
+	<IMG class="comicpage" alt="page2ofcomic" src="Page2.jpg"> 
+</div> 
+        <div class="buttonholder">            
+                <input type="button" onclick="location.href='page1.html';" value="Previous page" />
+                <input type="button" onclick="location.href='index.html';" value="Home page" />
+                <input type="button" onclick="location.href='page3.html';" value="Next page" />
+    </div>
+</article>		
+	
+<footer>    
+<div class=footer>	    
+		<nav>
+	<ul>
+   		<li class=active><a href="index.html">Front Cover</a></li>
+		<li><a href="page1.html">Page 1</a></li>
+		<li><a href="page2.html">Page 2</a></li>
+		<li><a href="page3.html">Page 3</a></li>
+		<li><a href="page4.html">Page 4</a></li>
+		<li><a href="documentation.html">Documentation</a></li>
+		<li><a href="inspiration.html">Inspiration</a></li>
+		<li><a href="sitemap.html">Site Map</a></li>
+	</ul>
+</nav>
+	</div>
+</footer>	
+	
+
+	</body>
+</html>
+
